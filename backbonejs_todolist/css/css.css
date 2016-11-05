@@ -1,0 +1,4 @@
+/* Hides bullet points from todo list */
+#todoapp ul {
+	list-style-type: none;
+}
