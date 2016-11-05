@@ -1,2 +1,10 @@
 # backbone_repo
-backbone, backbonejs, javascript, js, html, html5, css, css3
+
+Repository for backbone projects.
+
+key words: backbone, backbonejs, javascript, js, html, html5, css, css3
+
+List of backbone projects:
+=================
+
+1) helloWorld.
