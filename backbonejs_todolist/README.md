@@ -6,5 +6,7 @@ specifications:
 =================
 
 1) Create task. --done
-1) Edit task. --not done
-1) Delete task. --not done
+
+2) Edit task. --not done
+
+3) Delete task. --not done
