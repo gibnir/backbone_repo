@@ -2,9 +2,10 @@
 
     var app = {}; // create namespace for our app
     
-    //--------------
-    // Models
-    //--------------
+    /*
+    * Models
+    */
+    
     app.Todo = Backbone.Model.extend({
       defaults: {
         title: '',
@@ -12,9 +13,10 @@
       }
     });
 
-    //--------------
-    // Collections
-    //--------------
+    /*
+    * Collections
+    */
+    
     app.TodoList = Backbone.Collection.extend({
       model: app.Todo,
       localStorage: new Store("backbone-todo")
@@ -23,9 +25,9 @@
     // instance of the Collection
     app.todoList = new app.TodoList();
 
-    //--------------
-    // Views
-    //--------------
+    /*
+    * Views
+    */
     
     // renders individual todo items list (li)
     app.TodoView = Backbone.View.extend({
@@ -72,8 +74,9 @@
       }
     });
 
-    //--------------
-    // Initializers
-    //--------------   
+    /*
+    * Initializers
+    */
+       
 
     app.appView = new app.AppView();
